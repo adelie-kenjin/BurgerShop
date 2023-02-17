@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daisy's Burger</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="slick.css">
+    <link rel="stylesheet" href="slick-theme.css">
+    <link rel="stylesheet" href="modaal.min.css">
+
+    <script src="/js/slick.min.js"></script>
+    <script src="js/jquery.bgswitcher.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/modaal.min.js"></script>
+</head>
+<body>
+    <header class="bg-swicher">
+        <h1>Daisy's Burger</h1>
+        <nav>
+            <p class="nav-logo"><a href="">Daisy's Burger</a></p>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#limited">Limited</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#access">Access</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="about">
+        <div class="fadein">
+
+            <p class="heading about-title" >welcome!</p>
+            <p>
+                デイジーのハンバーガーショップへようこそ！<br>
+                「Daisy's Burger」はひとつひとつの食材にこだわったハンバーガーショップです。<br>
+                ぜひごゆっくりお楽しみください！
+            </p>
+        </div>
+    </section>
+    <section id="bg-fixed">
+    </section>
+
+    <section id="limited">
+        <h2 class="heading">Limited</h2>
+        <p class="subheading">期間限定</p>
+        <div class="slider">
+            <div>
+                <img src="images/burger1.png" alt="" class="slide-img">
+                <div class="slide-box">
+                    <h3 class="slide-title">スペシャルバーガー</h3>
+                    <p class="slide-tag">期間限定</p>
+                    <p class="slider-text">
+                        パティのボリュームが倍になったスペシャルバーガーが期間限定で登場！
+                        食べ応え抜群で、満足度の高いハンバーガーです。
+                    </p>
+                </div>
+            </div>
+            <div>
+                <img src="images/burger2.png" alt="" class="slide-img">
+                <div class="slide-box">
+                    <h3 class="slide-title">からあげバーガー</h3>
+                    <p class="slide-tag">新登場</p>
+                    <p class="slider-text">
+                        はみ出るほどに大きなからあげをサンドしたバーガーが新登場！
+                        シンプルなマヨネーズソースで間違いない美味しさです。
+                    </p>
+                </div>
+            </div>
+            <div>
+                <img src="images/burger3.png" alt="" class="slide-img">
+                <div class="slide-box">
+                    <h3 class="slide-title">フルールバーガー</h3>
+                    <p class="slide-tag">季節限定</p>
+                    <p class="slider-text">
+                        旬のフルーツと生クリームをサンドした、デザートバーガーが季節限定で登場！
+                        小腹が空いたおやつタイムにいかがですか。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="menu">
+        <h2 class="heading">Menu</h2>
+        <p class="subheading">メニュー</p>
+        <div class="food">
+            <div class="food-box">
+                <img src="images/burger4.jpg" alt="" class="food-box-img">
+                <p class="food-box-name">ハンバーガー</p>
+                <p class="food-box-price">¥500</p>
+            </div>
+            <div class="food-box">
+                <img src="images/burger5.jpg" alt="" class="food-box-img">
+                <p class="food-box-name">チーズハンバーガー</p>
+                <p class="food-box-price">¥550</p>
+            </div>
+            <div class="food-box">
+                <img src="images/burger6.jpg" alt="" class="food-box-img">
+                <p class="food-box-name">チキンクリスプハンバーガー</p>
+                <p class="food-box-price">¥500</p>
+            </div>
+            <div class="food-box">
+                <img src="images/burger7.jpg" alt="" class="food-box-img">
+                <p class="food-box-name">エッグチーズハンバーガー</p>
+                <p class="food-box-price">¥400</p>
+            </div>
+        </div>
+        <div class="open-box">
+            <div class="food">
+                <div class="food-box">
+                    <img src="images/burger4.jpg" alt="" class="food-box-img">
+                    <p class="food-box-name">ハンバーガー</p>
+                    <p class="food-box-price">¥500</p>
+                </div>
+                <div class="food-box">
+                    <img src="images/burger5.jpg" alt="" class="food-box-img">
+                    <p class="food-box-name">チーズハンバーガー</p>
+                    <p class="food-box-price">¥550</p>
+                </div>
+                <div class="food-box">
+                    <img src="images/burger6.jpg" alt="" class="food-box-img">
+                    <p class="food-box-name">チキンクリスプハンバーガー</p>
+                    <p class="food-box-price">¥500</p>
+                </div>
+                <div class="food-box">
+                    <img src="images/burger7.jpg" alt="" class="food-box-img">
+                    <p class="food-box-name">エッグチーズハンバーガー</p>
+                    <p class="food-box-price">¥400</p>
+                </div>
+            </div>
+        </div>
+        <p class="more-button">more</p>
+
+        <div class="drink">
+            <h3 class="drink-title">Drink</h3>
+            <table>
+                <!-- ここがtable headなので、table bodyとの間に線が入る -->
+                <thead>
+                    <tr class="drink-head">
+                        <!-- 一番上の行の左からthが書かれる -->
+                        <th class="drink-menu">メニュー</th>
+                        <th>Small</th>
+                        <th>Tall</th>
+                        <th>Grande</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <!-- 2行目の左からthが書かれる -->
+                        <!-- 全ての一つ目をdrink-menuのクラスに入れることで左の一列を指定してCSSを書ける -->
+                        <td class="drink-menu">ブレンドコーヒー</td>
+                        <td>¥300</td>
+                        <td>¥400</td>
+                        <td>¥500</td>
+                    </tr>
+                    <tr>
+                        <!-- 3行目の左からthが書かれる -->
+                        <td class="drink-menu">アイスコーヒー</td>
+                        <td>¥300</td>
+                        <td>¥400</td>
+                        <td>¥500</td>
+                    </tr>
+                    <tr>
+                        <!-- 4行目の左からthが書かれる -->
+                        <td class="drink-menu">カフェラテ</td>
+                        <td>¥300</td>
+                        <td>¥400</td>
+                        <td>¥500</td>
+                    </tr>
+                    <tr>
+                        <!-- 5行目の左からthが書かれる -->
+                        <td class="drink-menu">アイスカフェラテ</td>
+                        <td>¥300</td>
+                        <td>¥400</td>
+                        <td>¥500</td>
+                    </tr>
+                    <tr>
+                        <!-- 6行目の左からthが書かれる -->
+                        <td class="drink-menu">ファンタグレープ</td>
+                        <td>¥150</td>
+                        <td>¥200</td>
+                        <td>¥300</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <section id="news">
+        <h2 class="heading">NEWS</h2>
+        <p class="subheading">ニュース</p>
+
+        <!-- モーダル全体の箱 -->
+        <div class="modal">
+            <!-- モーダルウィンドウのクリック部分 -->
+            <div class="modal-box">
+                <a href="#news1" class="modal-button">
+                    <img src="images/banner1.jpg" alt="" class="banner">
+                </a>
+            </div>
+            <!-- ポップアップで出てくるウィンドウの画像と文字 -->
+            <div id="news1" style="display:none;" class="news">
+                <img src="images/banner1.jpg" alt="" class="banner">
+                <h3>モバイルオーダーシステムがスタートしました</h3>
+                <p>モバイルオーダーを使えばスムーズにお受け取りいただくことができます。</p>
+            </div>
+
+            <!-- モーダルウィンドウのクリック部分 -->
+            <div class="modal-box">
+                <a href="#news2" class="modal-button">
+                    <img src="images/banner2.jpg" alt="" class="banner">
+                </a>
+            </div>
+            <!-- ポップアップで出てくるウィンドウの画像と文字 -->
+            <div id="news2" style="display:none;" class="news">
+                <img src="images/banner2.jpg" alt="" class="banner">
+                <h3>オープン記念セール開催中です</h3>
+                <p>全品10%OFFになっています。この機会にぜひご来店ください！</p>
+            </div>
+    </section>
+    <section id="access">
+        <h2 class="heading">Access</h2>
+        <p class="subheading">アクセス</p>
+        <div class="access-wrap">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d399.6968706266844!2d139.73589251958202!3d35.64716275763754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188ba615b517fd%3A0xd3c27b8833c1cac4!2zTGlmZSBpcyBUZWNoICEgU2Nob29sIOeZvemHkemrmOi8quacrOagoQ!5e0!3m2!1sja!2sjp!4v1676624212023!5m2!1sja!2sjp" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="access-box">
+                <p class="access-box-title">住所</p>
+                <p class="access-box-text">東京都港区南麻布2-12-3</p>
+                <p class="access-box-title">電話</p>
+                <p class="access-text">03-5877-4879</p>
+                <p class="access-box-title">営業時間</p>
+                <p class="access-text">月~木 10:30~22:00(ラストオーダー 20:00) <br>
+                金土日 10:30~22:00 (ラストオーダー 21:00)
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy;Daisy's Burger</p>
+    </footer>
+</body>
+</html>

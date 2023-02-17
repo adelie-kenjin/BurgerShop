@@ -1,0 +1,249 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* Navigation */
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-left: 50px;
+}
+nav a{
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 1px 1px 3px rgba(0,0,0,.3);
+}
+
+nav p{
+    margin-left: 70px;
+}
+
+.bg-swicher{
+    /* ↓縦横比を画面サイズぴったりにする */
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/bg1.jpg);
+    background-position: center center;
+    background-size: cover;
+    /* ↑ここまで */
+
+    /* 文字をいい感じの場所に置いてくれる */
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    overflow: hidden;
+}
+
+.bg-swicher h1{
+    color: #fff;
+    font-size: 150px;
+    font-weight: bold;
+    text-shadow: 3px 3px 5px rgba(0,0,0,0.3);
+    margin: 30px;
+    font-family: 'Bubblegum Sans', cursive;
+}
+
+.heading{
+    font-family: 'Bubblegum Sans', cursive;
+    font-size: 64px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.subheading{
+    font-size: 18px;
+    text-align: center;
+}
+
+#about{
+    padding: 100px 0;
+    text-align: center;
+}
+
+.about-title{
+    margin-bottom: 10px;
+}
+
+body{
+    background: url(images/bg-about.jpg) center/contain;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.fadein{
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 1s;
+}
+
+#bg-fixed{
+    background: url(images/bg-fixed.jpg) center/cover;
+    height: 300px;
+    /* 画面スクロールする時に背景の位置が固定される(初期はscroll) */
+    background-attachment: fixed;
+}
+
+#limited{
+    padding: 100px 0;
+}
+
+.slick-initialized .slick-slide{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border: 3px solid #dcdcdc;
+    border-radius: 10px;
+    height: 350px;
+    margin: 50px 50px 0 50px;
+    padding: 50px;
+}
+
+.slide-img{
+    width: 40%;
+}
+
+.slide-box{
+    padding-left: 30px;
+    width: 60%;
+}
+.slide-title{
+    font-size: 36px;
+}
+
+.slide-tag{
+    background-color: #f05454;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    margin: 10px 0;
+    padding: 5px 10px;
+}
+
+/* menu */
+#menu{
+    background-color: #faedc6;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.open-box{
+    display: none;
+}
+
+.food{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto;
+    width: 1000px;
+}
+.food-box{
+    width: 200px;
+}
+.food-box-img{
+    border-radius: 10px;
+    width: 100%;
+}
+.more-button{
+    background-color: #fabb51;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px 40px;
+    text-decoration: none;
+}
+
+.drink-title{
+    font-family: "Bubblegum Sans", cursive;
+    font-size: 56px;
+    margin-top: 50px;
+}
+
+#menu table{
+    /* 表全体に適用させるCSS */
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+#menu th, #menu td{
+    /* 表の余白 */
+    padding: 10px 20px;
+}
+thead{
+    border-bottom: 1px solid #808080;
+}
+
+.drink-menu{
+    text-align: left;
+}
+
+#news{
+    padding: 100px 0;
+}
+
+.modal{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.banner{
+    width: 400px;
+}
+.modal-box{
+    margin: 0 20px;
+}
+
+.modaal-content-container{
+    text-align: center;
+}
+
+.modaal-close:focus:after, .modaal-close:focus:before,
+.modaal-close:hover:after, .modaal-close:hover:before{
+    background: #fabb51;
+}
+
+
+#access{
+    background-color: #faedc6;
+    padding: 100px 0;
+}
+
+.access-wrap{
+    display:flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.access-box{
+    margin-left: 50px;
+}
+
+.access-box-title{
+    font-weight: bold;
+}
+
+.access-box-text{
+    margin-bottom: 10px;
+}
+
+footer{
+    background-color: #fabb51;
+    padding: 20px 0;
+}
+footer p{
+    color: #fff;
+    text-align: center;
+}
